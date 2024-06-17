@@ -1,0 +1,6 @@
+.hero-container {
+  background-image: url("/images/hero-image.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

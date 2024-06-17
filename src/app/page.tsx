@@ -1,13 +1,13 @@
+import Hero from "@/components/Home/Hero/Hero";
 import NavBar from "@/components/Layout/NavBar/NavBar";
 
 export default function Home() {
   return (
-    <main className="orange h-full bg-gray">
-      <div className="mb-24">
-        <NavBar />
-      </div>
-
-      <p>Esto es el home</p>
-    </main>
+    <>
+      <NavBar />
+      <main className="bg-gray text-orange">
+          <Hero />
+      </main>
+    </>
   );
 }
