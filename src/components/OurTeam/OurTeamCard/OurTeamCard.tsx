@@ -1,9 +1,23 @@
-import React from 'react'
+import { OurTeamCardProps } from "@/types/OurTeamTypes";
+import React from "react";
 
-const OurTeamCard = () => {
+const OurTeamCard = ({ name, avatar, description }: OurTeamCardProps) => {
   return (
-    <div>OurTeamCard</div>
-  )
-}
+    <article className="flex flex-col items-center gap-y-6 px-4 py-12 text-dark-gray">
+      <h3 className="text-xl font-semibold">{name}</h3>
+      <picture>
+        <img
+          src={avatar}
+          alt="Mario Gonzalez"
+          height={260}
+          width={260}
+          className="w-h-64 h-64 rounded-full object-cover"
+        />
+      </picture>
 
-export default OurTeamCard
+      <p className="text-justify">{description}</p>
+    </article>
+  );
+};
+
+export default OurTeamCard;
