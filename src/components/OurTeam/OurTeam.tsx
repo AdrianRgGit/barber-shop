@@ -11,7 +11,7 @@ const OurTeam = () => {
 
       <div className="mx-auto grid sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3 lg:gap-8">
         <OurTeamCard
-          name="Mario Gonzalez"
+          name="Alonzo Mourning"
           avatar="/images/barber-1.webp"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A, similique
         recusandae amet sed sequi eius laudantium adipisci tenetur nisi
@@ -19,7 +19,7 @@ const OurTeam = () => {
         doloribus beatae."
         />
         <OurTeamCard
-          name="Mario Gonzalez"
+          name="Marion Gonzalez"
           avatar="/images/barber-2.webp"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A, similique
         recusandae amet sed sequi eius laudantium adipisci tenetur nisi
@@ -27,7 +27,7 @@ const OurTeam = () => {
         doloribus beatae."
         />
         <OurTeamCard
-          name="Mario Gonzalez"
+          name="Vitte"
           avatar="/images/barber-3.webp"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A, similique
         recusandae amet sed sequi eius laudantium adipisci tenetur nisi
@@ -37,7 +37,7 @@ const OurTeam = () => {
       </div>
 
       <div className="mt-12 self-center">
-        <Button text="REVISA DISPONIBILIDAD" />
+        <Button href="cita" text="REVISA DISPONIBILIDAD" />
       </div>
     </section>
   );

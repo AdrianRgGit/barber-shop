@@ -12,10 +12,12 @@ const Hero = () => {
           expertos estilistas está aquí para ofrecerte los mejores cortes,
           peinados y tratamientos personalizados.
         </p>
-        <p className="text-lg">¡Reserva tu cita hoy y transforma tu look con nosotros!</p>
+        <p className="text-lg">
+          ¡Reserva tu cita hoy y transforma tu look con nosotros!
+        </p>
 
         <div className="self-end">
-          <Button />
+          <Button href="/cita" />
         </div>
       </div>
     </section>
