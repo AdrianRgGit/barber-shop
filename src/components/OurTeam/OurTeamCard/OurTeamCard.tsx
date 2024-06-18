@@ -1,4 +1,4 @@
-import { OurTeamCardProps } from "@/types/OurTeamTypes";
+import { OurTeamCardProps } from "@/types/ourTeamTypes";
 import React from "react";
 
 const OurTeamCard = ({ name, avatar, description }: OurTeamCardProps) => {

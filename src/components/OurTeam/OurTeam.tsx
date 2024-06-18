@@ -5,11 +5,11 @@ import Button from "../Inputs/Button";
 const OurTeam = () => {
   return (
     <section className="flex min-h-[100vh] flex-col px-2 py-12 lg:px-1">
-      <h2 className="text-center text-2xl font-bold text-dark-gray">
+      <h2 className="mb-6 text-center text-2xl font-bold text-dark-gray lg:mb-0">
         OUR TEAM
       </h2>
 
-      <div className="mx-auto grid gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
+      <div className="mx-auto grid sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3 lg:gap-8">
         <OurTeamCard
           name="Mario Gonzalez"
           avatar="/images/barber-1.webp"
@@ -36,8 +36,8 @@ const OurTeam = () => {
         />
       </div>
 
-      <div className="self-center">
-        <Button />
+      <div className="mt-12 self-center">
+        <Button text="REVISA DISPONIBILIDAD" />
       </div>
     </section>
   );
