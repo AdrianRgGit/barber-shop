@@ -5,7 +5,8 @@ import React from "react";
 const NavBar = () => {
   return (
     <header>
-      <nav className="flex w-full items-center justify-end gap-x-12 bg-light-gray px-6 py-4 text-gray">
+      <nav className="flex w-full items-center justify-between gap-x-12 bg-light-gray px-6 py-4 text-gray">
+        <Link href="/">INICIO</Link>
         <div className="space-x-6">
           <Link
             href="#"
@@ -40,7 +41,7 @@ const NavBar = () => {
         </div>
 
         <div className="hidden lg:flex">
-          <Button href="/cita" />
+          <Link href="/cita">CITA</Link>
         </div>
       </nav>
     </header>
