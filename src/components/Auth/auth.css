@@ -1,0 +1,6 @@
+.auth-image {
+  background-image: url("/images/auth-background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

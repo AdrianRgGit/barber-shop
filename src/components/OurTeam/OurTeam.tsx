@@ -1,6 +1,6 @@
 import React from "react";
 import OurTeamCard from "./OurTeamCard/OurTeamCard";
-import Button from "../Inputs/Button";
+import Button from "../Inputs/Button/Button";
 
 const OurTeam = () => {
   return (
