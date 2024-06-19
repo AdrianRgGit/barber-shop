@@ -1,14 +1,22 @@
+import { TextFieldProps } from "@/types/inputTypes";
 import React from "react";
 
-const TextField = () => {
+const TextField = ({
+  label,
+  type = "text",
+  placeholder,
+  value,
+  required = false,
+}: TextFieldProps) => {
   return (
-    <label className="flex flex-col">
-      EMAIL
+    <label className="flex flex-col font-semibold">
+      {label}
       <input
-        type="text"
-        placeholder="TextField"
-        // value={"TextField"}
-        className="border-b border-b-dark-gray bg-transparent py-4 outline-none"
+        required={required}
+        type={type}
+        placeholder={placeholder}
+        // value={value}
+        className="border-b border-b-dark-gray bg-transparent pb-2 pt-4 font-normal outline-none"
       />
     </label>
   );
